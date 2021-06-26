@@ -1,0 +1,110 @@
+/* For body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(58, 67, 230);
+  font-family: Roboto, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+header {
+  display: inline-block;
+}
+.logo-main {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 5%;
+  padding: 5px;
+}
+.logo {
+  font-size: 35px;
+}
+ul {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 5%;
+  margin: 5px;
+}
+header ul li {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+header li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 5px;
+}
+header ul li:first-child {
+  font-weight: bold;
+  border-bottom: 1.5px solid white;
+}
+header ul li:hover {
+  background: rgba(97, 105, 250, 0.823);
+  border-radius: 8px;
+}
+main {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+main h1 {
+  color: white;
+  font-size: 80px;
+}
+main p {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  position: relative;
+  margin: 10px 5px;
+}
+button {
+  margin: 40px 0;
+}
+button a {
+  font-size: 18px;
+  color: rgb(58, 67, 230);
+  text-decoration: none;
+}
+.btn-1 {
+  padding: 15px 35px;
+  background: white;
+  border-style: none;
+  border-radius: 30px;
+  text-align: center;
+}
+.btn-1 a {
+  padding: 0 10px;
+}
+.btn-2 {
+  padding: 15px 35px;
+  background: rgb(41, 51, 233);
+  border-style: none;
+  border-radius: 30px;
+  margin-left: 5px;
+}
+
+.btn-2 a {
+  color: rgba(232, 232, 232, 0.905);
+  font-weight: lighter;
+}
+img {
+  position: absolute;
+  z-index: 3;
+  top: 25%;
+  right: 0%;
+  width: 750px;
+}
